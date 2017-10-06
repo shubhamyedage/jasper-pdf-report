@@ -15,14 +15,14 @@ import com.report.bean.Table_1_1;
  */
 public class ReportBeanCollector {
   // Common collector for report text.
-  public List<ReportTextBean> getTextBeanCollector() {
+  public static List<ReportTextBean> getTextBeanCollector() {
     List<ReportTextBean> reportTextBean = new ArrayList<ReportTextBean>();
     reportTextBean.add(new ReportTextBean());
     return reportTextBean;
   }
 
   // Collector for report.
-  public List<Table_1_1> getTableBeanCollector() {
+  public static List<Table_1_1> getTableBeanCollector() {
     List<Table_1_1> table_1_1 = new ArrayList<Table_1_1>();
     Table_1_1 row_1 = new Table_1_1();
     row_1.setIndicator("1. Non-current assets");
