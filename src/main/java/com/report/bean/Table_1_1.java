@@ -11,8 +11,7 @@ public class Table_1_1 {
   private double change;
   private double percentageChange;
 
-  public Table_1_1() {
-  }
+  public Table_1_1() {}
 
   public String getIndicator() {
     return indicator;
@@ -84,6 +83,14 @@ public class Table_1_1 {
 
   public void setPercentageChange(double percentageChange) {
     this.percentageChange = percentageChange;
+  }
+
+  @Override
+  public String toString() {
+    return "Table_1_1 [indicator=" + indicator + ", value1=" + value1 + ", value2=" + value2
+        + ", value3=" + value3 + ", value4=" + value4 + ", percentageValueBeginning="
+        + percentageValueBeginning + ", percentageValueEnd=" + percentageValueEnd + ", change="
+        + change + ", percentageChange=" + percentageChange + "]";
   }
 
 
