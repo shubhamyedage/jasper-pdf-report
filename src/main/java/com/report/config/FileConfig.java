@@ -23,7 +23,7 @@ public class FileConfig {
       for (Object line : dataList) {
         if (line != null) {
           String str = line.toString();
-//          System.out.println(str);
+          // System.out.println(str);
           data.add(str);
         }
       }
