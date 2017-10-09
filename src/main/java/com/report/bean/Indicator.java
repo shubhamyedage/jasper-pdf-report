@@ -1,6 +1,6 @@
 package com.report.bean;
 
-public class Table_1_1 {
+public class Indicator {
   private String indicator;
   private double value1;
   private double value2;
@@ -11,7 +11,7 @@ public class Table_1_1 {
   private double change;
   private double percentageChange;
 
-  public Table_1_1() {}
+  public Indicator() {}
 
   public String getIndicator() {
     return indicator;
@@ -87,7 +87,7 @@ public class Table_1_1 {
 
   @Override
   public String toString() {
-    return "Table_1_1 [indicator=" + indicator + ", value1=" + value1 + ", value2=" + value2
+    return "Indicator [indicator=" + indicator + ", value1=" + value1 + ", value2=" + value2
         + ", value3=" + value3 + ", value4=" + value4 + ", percentageValueBeginning="
         + percentageValueBeginning + ", percentageValueEnd=" + percentageValueEnd + ", change="
         + change + ", percentageChange=" + percentageChange + "]";

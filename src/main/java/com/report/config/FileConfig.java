@@ -19,10 +19,11 @@ public class FileConfig {
       br = new BufferedReader(fileReader);
       Stream<String> streamLines = br.lines();
       List<Object> dataList = streamLines.collect(Collectors.toList());
+      dataList.remove(0);
       for (Object line : dataList) {
         if (line != null) {
           String str = line.toString();
-          System.out.println(str);
+//          System.out.println(str);
           data.add(str);
         }
       }
